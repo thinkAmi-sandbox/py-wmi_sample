@@ -1,0 +1,1 @@
+# py-wmi_sample
