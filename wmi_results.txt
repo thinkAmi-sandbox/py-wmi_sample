@@ -1,0 +1,223 @@
+(env) d:\Sandbox\py-wmi_sample>python machine.py
+---------------
+Win32_BaseBoard
+---------------
+Caption: ベース ボード
+ConfigOptions: None
+Description: ベース ボード
+Manufacturer: LENOVO
+Model: None
+Name: ベース ボード
+OtherIdentifyingInfo: None
+PartNumber: None
+Product: 5129CTO
+RequirementsDescription: None
+SerialNumber: ***
+SKU: None
+Tag: Base Board
+Version: Not Available
+---
+----------------
+Win32_CDROMDrive
+----------------
+--------------------
+Win32_ComputerSystem
+--------------------
+Caption: ***
+ChassisSKUNumber: None
+Description: AT/AT COMPATIBLE
+DNSHostName: ***
+Domain: ***
+Manufacturer: LENOVO
+Model: 5129CTO
+Name: ***
+OEMStringArray: ('IBM ThinkPad Embedded Controller -[6QHT28WW-1.09    ]-',)
+SystemFamily: ThinkPad X201s
+SystemSKUNumber: None
+SystemType: x64-based PC
+TotalPhysicalMemory: 8375672832
+PCSystemType: Mobile
+PCSystemTypeEx: Mobile
+---
+--------------------
+Win32_DesktopMonitor
+--------------------
+Caption: LCD 1440x900
+Bandwidth: None
+Description: LCD 1440x900
+DeviceID: DesktopMonitor1
+MonitorManufacturer: Lenovo
+MonitorType: LCD 1440x900
+Name: LCD 1440x900
+PixelsPerXLogicalInch: 96
+PixelsPerYLogicalInch: 96
+ScreenHeight: None
+ScreenWidth: None
+Status: OK
+DisplayType: disabled by OS version
+---
+---------------
+Win32_DiskDrive
+---------------
+Caption: TOSHIBA THNSNH256GCST
+BytesPerSector: 512
+CompressionMethod: None
+DefaultBlockSize: None
+Description: ディスク ドライブ
+DeviceID: \\.\PHYSICALDRIVE0
+InterfaceType: IDE
+Manufacturer: (標準ディスク ドライブ)
+MediaType: Fixed hard disk media
+Model: TOSHIBA THNSNH256GCST
+Name: \\.\PHYSICALDRIVE0
+Partitions: 4
+PNPDeviceID: SCSI\DISK&VEN_TOSHIBA&PROD_THNSNH256GCST\4&398487B7&0&000000
+SectorsPerTrack: 63
+SerialNumber:         ***
+Size: 256055869440
+Status: OK
+TotalCylinders: 33076
+TotalHeads: 240
+TotalSectors: 500109120
+TotalTracks: 7938240
+TracksPerCylinder: 240
+---
+---------
+Win32_Fan
+---------
+---------------------------------
+Win32_NetworkAdapterConfiguration
+---------------------------------
+Caption: [00000001] Intel(R) 82577LM Gigabit Network Connection
+DefaultIPGateway: None
+Description: Intel(R) 82577LM Gigabit Network Connection
+DHCPEnabled: True
+DHCPServer: None
+IPAddress: None
+IPSubnet: None
+IPEnabled: False
+DNSServerSearchOrder: None
+MACAddress: **:**:**:**:**:**
+ServiceName: ***
+TcpWindowSize: None
+---
+Caption: [00000002] Intel(R) Centrino(R) Advanced-N 6250 AGN Driver
+DefaultIPGateway: ('***.***.***.***',)
+Description: Intel(R) Centrino(R) Advanced-N 6250 AGN
+DHCPEnabled: True
+DHCPServer: ***.***.***.***
+IPAddress: ('***.***.***.***', '***::***')
+IPSubnet: ('***.***.***.***', '***')
+IPEnabled: True
+DNSServerSearchOrder: ('***.***.***.***',)
+MACAddress: **:**:**:**:**:**
+ServiceName: ***
+TcpWindowSize: 64240
+---
+Caption: [00000004] Bluetooth Device (RFCOMM Protocol TDI)
+DefaultIPGateway: None
+Description: Bluetooth Device (RFCOMM Protocol TDI)
+DHCPEnabled: False
+DHCPServer: None
+IPAddress: None
+IPSubnet: None
+IPEnabled: False
+DNSServerSearchOrder: None
+MACAddress: None
+ServiceName: RFCOMM
+TcpWindowSize: None
+---
+---------------------
+Win32_OperatingSystem
+---------------------
+Name: Microsoft Windows 10 Home|C:\WINDOWS|\Device\Harddisk0\Partition2
+Caption: Microsoft Windows 10 Home
+CSDVersion: None
+OSArchitecture: 64 ビット
+CSName: ***
+---
+---------------
+Win32_Processor
+---------------
+Name: Intel(R) Core(TM) i7 CPU       L 620  @ 2.00GHz
+SerialNumber:
+SystemName: ***
+---
+--------------------
+Win32_PhysicalMemory
+--------------------
+Caption: 物理メモリ
+ConfiguredClockSpeed: None
+DataWidth: 64
+Description: 物理メモリ
+DeviceLocator: DIMM 1
+Manufacturer: 830B
+Model: None
+Name: 物理メモリ
+OtherIdentifyingInfo: None
+PartNumber: M2S4G64CB8HB5N-CG
+SerialNumber: ***
+SKU: None
+Speed: 1334
+Tag: Physical Memory 0
+MemoryType: DDR3
+---
+Caption: 物理メモリ
+ConfiguredClockSpeed: None
+DataWidth: 64
+Description: 物理メモリ
+DeviceLocator: DIMM 2
+Manufacturer: 830B
+Model: None
+Name: 物理メモリ
+OtherIdentifyingInfo: None
+PartNumber: M2S4G64CB8HB5N-CG
+SerialNumber: ***
+SKU: None
+Speed: 1334
+Tag: Physical Memory 1
+MemoryType: DDR3
+---
+---------------------
+Win32_VideoController
+---------------------
+Caption: Intel(R) HD Graphics
+AdapterCompatibility: Intel Corporation
+AdapterDACType: Internal
+AdapterRAM: -342011904
+ColorTableEntries: None
+CurrentBitsPerPixel: 32
+CurrentHorizontalResolution: 1440
+CurrentNumberOfColors: 4294967296
+CurrentNumberOfColumns: 0
+CurrentNumberOfRows: 0
+CurrentRefreshRate: 50
+CurrentScanMode: 4
+CurrentVerticalResolution: 900
+Description: Intel(R) HD Graphics
+DeviceSpecificPens: None
+DriverVersion: 8.15.10.2900
+MaxMemorySupported: None
+MaxNumberControlled: None
+MaxRefreshRate: 50
+MinRefreshRate: 50
+Monochrome: False
+Name: Intel(R) HD Graphics
+ProtocolSupported: None
+Status: OK
+VideoArchitecture: 5
+VideoMemoryType: 2
+VideoMode: None
+VideoModeDescription: 1440 x 900 x 4294967296 colors
+VideoProcessor: Intel(R) HD Graphics (Core i7)
+---
+---------------------
+Win32_Product
+---------------------
+Name: Java 7 Update 79 (64-bit)
+Version: 7.0.790
+InstallLocation: C:\jre7\
+InstallSource: C:\jdk7\
+LocalPackage: C:\WINDOWS\Installer\6f03c.msi
+PackageName: jre.msi
+---
